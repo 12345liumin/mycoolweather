@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <litepal>
+        <dbname value="cool_weather"></dbname>
+        <vesion value="1"></vesion>
+        <list>
+            <mapping class="com.liumin.mycoolweather.db.Province"></mapping>
+            <mapping class="com.liumin.mycoolweather.db.City"></mapping>
+                <mapping class="com.liumin.mycoolweather.db.County"></mapping>
+
+        </list>
+    </litepal>
+</resources>
